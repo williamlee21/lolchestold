@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  font-family: monospace;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  min-width: 1000px
+}
+
+.content {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  min-height: 100vh;
+  flex-direction: column;
+  width: 100%;
+}
+
+.success {
+  background-color: #28a745;
+}
+
+.danger {
+  background-color: #dc3545;
+}
+
+.warning {
+  background-color: #ffc107;
+}

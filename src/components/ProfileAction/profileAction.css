@@ -1,0 +1,19 @@
+.profile-action {
+  display: flex;
+  justify-content: space-around;
+}
+.profile-action input {
+  padding: 10px;
+}
+
+.action-btn {
+  width: 45%;
+  height: 33px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  border: 1px solid black;
+}

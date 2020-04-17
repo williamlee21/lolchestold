@@ -1,0 +1,40 @@
+.champion-card {
+  margin: 5px;
+}
+
+img {
+  border-radius: 5px;
+  height: 50px;
+  width: 50px;
+}
+
+img:hover {
+  cursor: pointer;
+  border: 2px gray solid;
+}
+
+.disabled {
+  opacity: 0.5;
+}
+
+.acquired {
+  border: 2px green solid;
+}
+
+.bg-green {
+  background-color: green;
+  height: 50px;
+  border-radius: 5px;
+}
+
+/* @media screen and (max-width: 768px) { */
+@media screen and (max-width: 576px) {
+  img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .bg-green {
+    height: 40px;
+  }
+}
