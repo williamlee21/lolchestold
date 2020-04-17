@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/lolchest/static/css/main.d1b05096.chunk.css",
+    "main.js": "/lolchest/static/js/main.bcb83bee.chunk.js",
+    "main.js.map": "/lolchest/static/js/main.bcb83bee.chunk.js.map",
+    "runtime-main.js": "/lolchest/static/js/runtime-main.62604fa6.js",
+    "runtime-main.js.map": "/lolchest/static/js/runtime-main.62604fa6.js.map",
+    "static/js/2.a1df53e7.chunk.js": "/lolchest/static/js/2.a1df53e7.chunk.js",
+    "static/js/2.a1df53e7.chunk.js.map": "/lolchest/static/js/2.a1df53e7.chunk.js.map",
+    "index.html": "/lolchest/index.html",
+    "precache-manifest.bbc243ab92a77b861e39de968593dd69.js": "/lolchest/precache-manifest.bbc243ab92a77b861e39de968593dd69.js",
+    "service-worker.js": "/lolchest/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/lolchest/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.a1df53e7.chunk.js.LICENSE.txt": "/lolchest/static/js/2.a1df53e7.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/lolchest/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.62604fa6.js",
+    "static/js/2.a1df53e7.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.bcb83bee.chunk.js"
+  ]
+}
