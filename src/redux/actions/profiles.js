@@ -1,4 +1,6 @@
 import { v4 as uuidv4 } from 'uuid';
+import axios from 'axios';
+
 import {
   FETCH_PROFILE_DATA,
   FETCH_CURRENT_DATA,
@@ -6,10 +8,10 @@ import {
   SELECT_PROFILE,
   TOGGLE_CHAMPION,
   RESET_PROFILE,
-  REMOVE_PROFILE
+  REMOVE_PROFILE,
 } from './types';
 
-export const fetchProfileData = () => async dispatch => {
+export const fetchProfileData = () => async (dispatch) => {
   try {
     if (localStorage.getItem('profiles')) {
       const payload = await JSON.parse(localStorage.getItem('profiles'));
@@ -22,7 +24,7 @@ export const fetchProfileData = () => async dispatch => {
   }
 };
 
-export const fetchCurrentData = () => async dispatch => {
+export const fetchCurrentData = () => async (dispatch) => {
   try {
     if (localStorage.getItem('current')) {
       const payload = await JSON.parse(localStorage.getItem('current'));
@@ -35,14 +37,22 @@ export const fetchCurrentData = () => async dispatch => {
   }
 };
 
-export const addProfile = profileTitle => async dispatch => {
+export const addProfile = (profileTitle) => async (dispatch) => {
   try {
-    const res = await fetch(
+    // const res = await fetch(
+    //   'http://ddragon.leagueoflegends.com/cdn/10.7.1/data/en_US/champion.json'
+    // );
+    // const data = await res.json();
+
+    const res = await axios.get(
       'http://ddragon.leagueoflegends.com/cdn/10.7.1/data/en_US/champion.json'
     );
-    const data = await res.json();
 
-    const payload = { id: uuidv4(), title: profileTitle, champions: data.data };
+    const payload = {
+      id: uuidv4(),
+      title: profileTitle,
+      champions: res.data.data,
+    };
 
     dispatch({ type: ADD_PROFILE, payload });
   } catch (err) {
@@ -50,7 +60,7 @@ export const addProfile = profileTitle => async dispatch => {
   }
 };
 
-export const selectProfile = profile => async dispatch => {
+export const selectProfile = (profile) => async (dispatch) => {
   try {
     dispatch({ type: SELECT_PROFILE, payload: profile });
   } catch (err) {
@@ -58,7 +68,7 @@ export const selectProfile = profile => async dispatch => {
   }
 };
 
-export const toggleChampion = championId => async dispatch => {
+export const toggleChampion = (championId) => async (dispatch) => {
   try {
     dispatch({ type: TOGGLE_CHAMPION, payload: championId });
   } catch (err) {
@@ -66,7 +76,7 @@ export const toggleChampion = championId => async dispatch => {
   }
 };
 
-export const resetProfile = () => async dispatch => {
+export const resetProfile = () => async (dispatch) => {
   try {
     const res = await fetch(
       'http://ddragon.leagueoflegends.com/cdn/10.7.1/data/en_US/champion.json'
@@ -83,7 +93,7 @@ export const resetProfile = () => async dispatch => {
   }
 };
 
-export const removeProfile = () => async dispatch => {
+export const removeProfile = () => async (dispatch) => {
   try {
     const current = await JSON.parse(localStorage.getItem('current'));
 
