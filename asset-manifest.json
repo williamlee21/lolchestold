@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/lolchest/static/css/main.bafc4a6d.chunk.css",
-    "main.js": "/lolchest/static/js/main.da261cec.chunk.js",
-    "main.js.map": "/lolchest/static/js/main.da261cec.chunk.js.map",
+    "main.js": "/lolchest/static/js/main.0d816db3.chunk.js",
+    "main.js.map": "/lolchest/static/js/main.0d816db3.chunk.js.map",
     "runtime-main.js": "/lolchest/static/js/runtime-main.62604fa6.js",
     "runtime-main.js.map": "/lolchest/static/js/runtime-main.62604fa6.js.map",
-    "static/js/2.0cb26a60.chunk.js": "/lolchest/static/js/2.0cb26a60.chunk.js",
-    "static/js/2.0cb26a60.chunk.js.map": "/lolchest/static/js/2.0cb26a60.chunk.js.map",
+    "static/js/2.f662d0d4.chunk.js": "/lolchest/static/js/2.f662d0d4.chunk.js",
+    "static/js/2.f662d0d4.chunk.js.map": "/lolchest/static/js/2.f662d0d4.chunk.js.map",
     "index.html": "/lolchest/index.html",
-    "precache-manifest.92e88e4c2cdc8f15f6e1a0f6555730c3.js": "/lolchest/precache-manifest.92e88e4c2cdc8f15f6e1a0f6555730c3.js",
+    "precache-manifest.e5ca07f59664fceb96147dfe72877f0d.js": "/lolchest/precache-manifest.e5ca07f59664fceb96147dfe72877f0d.js",
     "service-worker.js": "/lolchest/service-worker.js",
     "static/css/main.bafc4a6d.chunk.css.map": "/lolchest/static/css/main.bafc4a6d.chunk.css.map",
-    "static/js/2.0cb26a60.chunk.js.LICENSE.txt": "/lolchest/static/js/2.0cb26a60.chunk.js.LICENSE.txt"
+    "static/js/2.f662d0d4.chunk.js.LICENSE.txt": "/lolchest/static/js/2.f662d0d4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.62604fa6.js",
-    "static/js/2.0cb26a60.chunk.js",
+    "static/js/2.f662d0d4.chunk.js",
     "static/css/main.bafc4a6d.chunk.css",
-    "static/js/main.da261cec.chunk.js"
+    "static/js/main.0d816db3.chunk.js"
   ]
 }

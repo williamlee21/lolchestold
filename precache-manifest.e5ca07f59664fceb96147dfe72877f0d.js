@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0fc54c685649732b450628e9a76d256b",
+    "revision": "d91bd6cc406c944db6488d00b87436c0",
     "url": "/lolchest/index.html"
   },
   {
-    "revision": "f8a7512a0760e59d438d",
+    "revision": "2d8593f870670a5e7008",
     "url": "/lolchest/static/css/main.bafc4a6d.chunk.css"
   },
   {
-    "revision": "2eac6f396d5fe0e776b2",
-    "url": "/lolchest/static/js/2.0cb26a60.chunk.js"
+    "revision": "954d3917d1a4fef41cea",
+    "url": "/lolchest/static/js/2.f662d0d4.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/lolchest/static/js/2.0cb26a60.chunk.js.LICENSE.txt"
+    "url": "/lolchest/static/js/2.f662d0d4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f8a7512a0760e59d438d",
-    "url": "/lolchest/static/js/main.da261cec.chunk.js"
+    "revision": "2d8593f870670a5e7008",
+    "url": "/lolchest/static/js/main.0d816db3.chunk.js"
   },
   {
     "revision": "a0f820f5203d3a8134cb",
