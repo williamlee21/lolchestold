@@ -79,7 +79,7 @@ export const toggleChampion = (championId) => async (dispatch) => {
 export const resetProfile = () => async (dispatch) => {
   try {
     const res = await fetch(
-      'http://ddragon.leagueoflegends.com/cdn/10.7.1/data/en_US/champion.json'
+      'https://ddragon.leagueoflegends.com/cdn/10.7.1/data/en_US/champion.json'
     );
 
     const data = await res.json();
